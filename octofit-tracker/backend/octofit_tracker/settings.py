@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# Add the codespace Django REST API endpoint suffix to settings.py
+CODESPACE_URL = 'https://ominous-winner-wrxx4qpqrxvgh9xv6-8000.app.github.dev'
+ALLOWED_HOSTS += [CODESPACE_URL]
+
 
 # Application definition
 
